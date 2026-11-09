@@ -7,4 +7,22 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv/
+
+# Data
+data/
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
